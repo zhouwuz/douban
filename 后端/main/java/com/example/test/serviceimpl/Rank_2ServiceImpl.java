@@ -1,0 +1,20 @@
+package com.example.test.serviceimpl;
+
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.example.test.entity.Rank_1;
+import com.example.test.entity.Rank_2;
+import com.example.test.entity.RankingList;
+import com.example.test.mapper.Rank_1Mapper;
+import com.example.test.mapper.Rank_2Mapper;
+import com.example.test.mapper.RankingListMapper;
+import com.example.test.service.Rank_1Service;
+import com.example.test.service.Rank_2Service;
+import com.example.test.service.RankingListService;
+import org.springframework.stereotype.Service;
+
+
+@Service
+public class Rank_2ServiceImpl extends ServiceImpl<Rank_2Mapper, Rank_2> implements Rank_2Service{
+
+
+}
